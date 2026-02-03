@@ -8,7 +8,7 @@ AI Agent skill for [Cangjie (仓颉)](https://developer.huawei.com/consumer/cn/c
 ## Installation
 
 ```bash
-npx skills add <your-username>/cangjie-dev-skill
+npx skills add chenchaotao666/cangjie-dev-skill
 ```
 
 ## Features
@@ -52,7 +52,7 @@ The skill automatically activates when:
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/cangjie-dev-skill.git
+git clone https://github.com/chenchaotao666/cangjie-dev-skill.git
 cd cangjie-dev-skill
 
 # Sync documentation from CangjieCorpus

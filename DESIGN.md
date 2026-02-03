@@ -7,7 +7,7 @@
 
 ### 1.2 安装方式
 ```bash
-npx skills add <your-github-username>/cangjie-dev-skill
+npx skills add chenchaotao666/cangjie-dev-skill
 ```
 
 ### 1.3 核心价值
@@ -63,7 +63,7 @@ description: |
   自动激活条件：检测到 .cj 文件或 cjpm.toml 配置文件。
 license: MIT
 metadata:
-  author: <your-github-username>
+  author: chenchaotao666
   version: "1.0.0"
   cangjie_version: "1.0.0"
 ---
@@ -214,10 +214,10 @@ func quickSort<T>(arr: Array<T>, compare: (T, T) -> Int64): Unit {
 ## 9. 发布到 skills.sh
 
 1. 确保仓库为 public
-2. 包含正确的目录结构 (`skills/<skill-name>/SKILL.md`)
+2. 包含正确的目录结构 (`skills/cangjie-dev/SKILL.md`)
 3. 用户通过以下命令安装：
    ```bash
-   npx skills add <github-username>/cangjie-dev-skill
+   npx skills add chenchaotao666/cangjie-dev-skill
    ```
 4. Skill 会自动出现在 skills.sh 排行榜
 
