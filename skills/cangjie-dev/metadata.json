@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "organization": "Cangjie Community",
+  "date": "2026-02",
+  "abstract": "仓颉(Cangjie)编程语言开发辅助 Skill，基于官方文档和 CangjieCorpus 语料库，提供语法指导、API 参考和最佳实践。支持 Claude Code、Cursor、Copilot 等 AI Agent。",
+  "cangjie_version": "1.0.0",
+  "references": [
+    "https://github.com/Cangjie-Pub/CangjieCorpus",
+    "https://developer.huawei.com/consumer/cn/cangjie/"
+  ]
+}

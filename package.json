@@ -1,0 +1,23 @@
+{
+  "name": "cangjie-dev-skill",
+  "version": "1.0.0",
+  "description": "AI Agent skill for Cangjie programming language development",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "sync": "bash scripts/sync-corpus.sh",
+    "validate": "node scripts/validate.js"
+  },
+  "keywords": [
+    "cangjie",
+    "skill",
+    "ai-agent",
+    "claude-code",
+    "harmonyos"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chenchaotao666/cangjie-dev-skill"
+  }
+}
