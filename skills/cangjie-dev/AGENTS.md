@@ -7,7 +7,7 @@ description: |
 license: MIT
 metadata:
   author: cangjie-community
-  version: "1.0.0"
+  version: "1.0.1"
   cangjie_version: "1.0.0"
 ---
 
@@ -383,19 +383,65 @@ description = "My Cangjie Project"
 
 ## 常用命令
 
+### 创建工程
+
+使用 `cjpm init` 创建一个新的仓颉工程，会自动生成标准项目结构（包括 `cjpm.toml`、`src/` 和 `src/main.cj`）：
+
 ```bash
-# 创建项目
 cjpm init my-project
+cd my-project
+```
 
-# 构建
+生成的目录结构：
+
+```
+my-project/
+├── cjpm.toml          # 项目配置文件
+└── src/
+    └── main.cj        # 主源文件
+```
+
+### 编译工程
+
+使用 `cjpm build` 编译当前工程，编译产物默认输出到 `build/` 目录：
+
+```bash
 cjpm build
+```
 
-# 运行
+常用选项：
+
+```bash
+cjpm build --output=<name>       # 指定输出文件名
+cjpm build --target=<name>       # 交叉编译到指定平台
+cjpm build --coverage            # 编译并启用覆盖率统计
+```
+
+### 运行工程
+
+使用 `cjpm run` 编译并运行当前工程（自动执行 `main` 函数）：
+
+```bash
 cjpm run
+```
 
-# 测试
+### 测试工程
+
+使用 `cjpm test` 编译并执行当前工程中的测试用例（`test/` 目录下的测试文件）：
+
+```bash
 cjpm test
+```
 
+常用选项：
+
+```bash
+cjpm test --coverage             # 运行测试并统计覆盖率
+```
+
+### 其他工具
+
+```bash
 # 格式化代码
 cjfmt -w src/
 

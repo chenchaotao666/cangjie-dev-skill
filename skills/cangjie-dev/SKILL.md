@@ -7,7 +7,7 @@ description: |
 license: MIT
 metadata:
   author: cangjie-community
-  version: "1.0.0"
+  version: "1.0.1"
   cangjie_version: "1.0.0"
 ---
 
