@@ -7,8 +7,20 @@ AI Agent skill for [Cangjie (仓颉)](https://developer.huawei.com/consumer/cn/c
 
 ## Installation
 
+### 全局安装
+
+安装到所有项目中生效：
+
 ```bash
 npx skills add chenchaotao666/cangjie-dev-skill --yes --global
+```
+
+### 项目安装
+
+仅在当前项目中生效：
+
+```bash
+npx skills add chenchaotao666/cangjie-dev-skill
 ```
 
 ## Features
